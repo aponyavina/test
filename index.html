@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <div class="header__content">
                 <a href="" class="logo header__logo">
                     <svg class="header__logo-img" width="136" height="31" viewBox="0 0 136 31" fill="none"
@@ -42,6 +44,7 @@
                         </defs>
                     </svg>
                 </a>
+
                 <form action="#" class="search header__search">
                     <svg class="search__icon" width="18" height="18" viewBox="0 0 18 18" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -51,53 +54,65 @@
                     </svg>
                     <input class="search__input" type="text" placeholder="Найти...">
                 </form>
-                <div class="line"></div>
+
                 <a href="#" class="user header__user">
                     <span class="user__name">Константин</span>
                     <img src="img/user.png" alt="user avatar" class="user__avatar">
+                </a>
+                <a href="#" class="user header__user--mobile">
+                    <svg class="user__icon" width="25" height="25" viewBox="0 0 25 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.0576 13.229C7.98278 13.229 4.61188 16.2879 4.11951 20.231C4.05108 20.779 4.50536 21.229 5.05765 21.229C5.60993 21.229 6.04891 20.7779 6.14028 20.2332C6.61603 17.3972 9.08858 15.229 12.0576 15.229C15.0267 15.229 17.4993 17.3972 17.975 20.2332C18.0664 20.7779 18.5054 21.229 19.0576 21.229C19.6099 21.229 20.0642 20.779 19.9958 20.231C19.5034 16.2879 16.1325 13.229 12.0576 13.229Z"
+                            fill="#34AADD" />
+                        <path
+                            d="M12.0576 11.229C14.2636 11.229 16.0576 9.435 16.0576 7.229C16.0576 5.023 14.2636 3.229 12.0576 3.229C9.85162 3.229 8.05762 5.023 8.05762 7.229C8.05762 9.435 9.85162 11.229 12.0576 11.229"
+                            stroke="#34AADD" stroke-width="2" />
+                    </svg>
                 </a>
             </div>
         </div>
     </header>
     <section class="partners">
-        <h2 class="partners__title">Наши партнёры</h2>
-        <div class="partners__content">
-            <a href="" class="partners__link">
+        <div class="container partners__container">
+            <h2 class="partners__title">Наши партнёры</h2>
+            <div class="partners__content">
                 <div class="partners__item">
-                    <img src="https://i.imgur.com/MuMvBpG.png" alt="partner1" class="partners__item-img">
+                    <a href="" class="partners__item-link">
+                        <img src="img/321451_v2 1.png" alt="partners-img" class="partners__item-img">
+                    </a>
                 </div>
-            </a>
-            <a href="" class="partners__link">
                 <div class="partners__item">
-                    <img src="https://i.imgur.com/75HDWLe.png" alt="partner2" class="partners__item-img">
+                    <a href="" class="partners__item-link">
+                        <img src="img/1024px-Ikea_logo 1.png" alt="partners-img" class="partners__item-img">
+                    </a>
                 </div>
-            </a>
-            <a href="" class="partners__link">
                 <div class="partners__item">
-                    <img src="https://i.imgur.com/JPSZkjS.png" alt="partner3" class="partners__item-img">
+                    <a href="" class="partners__item-link">
+                        <img src="img/792px-McDonald's_logo 1.png" alt="partners-img" class="partners__item-img">
+                    </a>
                 </div>
-            </a>
-            <a href="" class="partners__link">
                 <div class="partners__item">
-                    <img src="https://i.imgur.com/rMTIjd9.png" alt="partner4" class="partners__item-img">
+                    <a href="" class="partners__item-link">
+                        <img src="img/CM20200219-db34e-f70d2 1.png" alt="partners-img" class="partners__item-img">
+                    </a>
                 </div>
-            </a>
-            <a href="" class="partners__link">
                 <div class="partners__item">
-                    <img src="https://i.imgur.com/U6yV8mC.png" alt="partner5" class="partners__item-img">
+                    <a href="" class="partners__item-link">
+                        <img src="img/download 1.png" alt="partners-img" class="partners__item-img">
+                    </a>
                 </div>
-            </a>
-            <a href="" class="partners__link">
                 <div class="partners__item">
-                    <img src="https://i.imgur.com/1sHBD3B.png" alt="partner6" class="partners__item-img">
+                    <a href="" class="partners__item-link">
+                        <img src="img/img1.png" alt="partners-img" class="partners__item-img">
+                    </a>
                 </div>
-            </a>
-            <a href="" class="partners__link">
                 <div class="partners__item">
-                    <img src="https://i.imgur.com/LJyqZdp.png" alt="partner7" class="partners__item-img">
+                    <a href="" class="partners__item-link">
+                        <img src="img/img2.png" alt="partners-img" class="partners__item-img">
+                    </a>
                 </div>
-            </a>
-
+            </div>
         </div>
     </section>
 </body>
