@@ -246,6 +246,14 @@
       flex-wrap: wrap;
 }
 
+@media (max-width: 1200px) {
+  .partners__content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .partners__item {
   height: 100px;
   width: 270px;
@@ -270,11 +278,17 @@
   .partners__item {
     margin: 0 10px 20px 10px;
     height: 120px;
-    width: 229px;
+    width: 30%;
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 767px) {
+  .partners__item {
+    width: 42%;
+  }
+}
+
+@media (max-width: 600px) {
   .partners__item {
     width: 100%;
     height: 140px;
